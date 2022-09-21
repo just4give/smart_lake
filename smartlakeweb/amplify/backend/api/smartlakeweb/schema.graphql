@@ -1,0 +1,38 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+
+type SmartLakeDeviceLog @model {
+  id: ID!
+  dev_eui: String!
+  temperature: Float
+  tds: Float
+  ph: Float
+  turbidity: Float
+  light: Float
+  uv: Float
+  seq: Int
+  clas: Int
+  bat: Float
+  ts: AWSTimestamp!
+  ttl: AWSTimestamp!
+}
+
+type SmartLakeDevice @model {
+  id: ID!
+  dev_eui: String!
+  temperature: Float
+  tds: Float
+  ph: Float
+  turbidity: Float
+  light: Float
+  uv: Float
+  seq: Int
+  clas: Int
+  bat: Float
+  lat: Float
+  lng: Float
+  ts: AWSTimestamp!
+  mobiles: [String]
+  
+}

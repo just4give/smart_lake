@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartlakeweb-dev-111318-authRole",
+      "UnauthRoleArn": "arn:aws:iam::027378352884:role/amplify-smartlakeweb-dev-111318-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::027378352884:role/amplify-smartlakeweb-dev-111318-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-smartlakeweb-dev-111318-deployment",
+      "UnauthRoleName": "amplify-smartlakeweb-dev-111318-unauthRole",
+      "StackName": "amplify-smartlakeweb-dev-111318",
+      "StackId": "arn:aws:cloudformation:us-east-1:027378352884:stack/amplify-smartlakeweb-dev-111318/7011d020-32ad-11ed-a8cb-12c96628f09b",
+      "AmplifyAppId": "d2715gsj7agdb5"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2715gsj7agdb5",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "smartlaketopictoappsync": {
+          "awsNodejsConnectionReuseEnabled": "1",
+          "deploymentBucketName": "amplify-smartlakeweb-dev-111318-deployment",
+          "s3Key": "amplify-builds/smartlaketopictoappsync-465937647063752b4f36-build.zip"
+        }
+      }
+    }
+  }
+}

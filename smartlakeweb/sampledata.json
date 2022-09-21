@@ -1,0 +1,67 @@
+{
+    "app_eui": "6081F9EFD73D2E9A",
+    "dc": {
+      "balance": 100936643,
+      "nonce": 2
+    },
+    "decoded": {
+      "payload": {
+        "hasGPS": 0,
+        "light": 1,
+        "ph": 4.7,
+        "prediction": 0,
+        "tds": 66,
+        "temperature": 78,
+        "turbidity": 1.6,
+        "uv": 0
+      },
+      "status": "success"
+    },
+    "dev_eui": "6081F9F7D2D7618D",
+    "devaddr": "0A000048",
+    "fcnt": 0,
+    "hotspots": [
+      {
+        "channel": 2,
+        "frequency": 904.2999877929688,
+        "hold_time": 0,
+        "id": "11nyydnvEGGawUZ8o8TyPo216QVQDqZLkCpneyJGvwfqxVZ25B1",
+        "lat": 41.3759261229642,
+        "long": -72.21497469574263,
+        "name": "brief-wintergreen-ape",
+        "reported_at": 1663029594409,
+        "rssi": -47,
+        "snr": 10.5,
+        "spreading": "SF10BW125",
+        "status": "success"
+      }
+    ],
+    "id": "f3d4744b-50a2-4c37-9e2d-b55f91d034a8",
+    "metadata": {
+      "adr_allowed": false,
+      "cf_list_enabled": false,
+      "labels": [
+        {
+          "id": "85a0c9d6-7a99-46f9-84a8-1c52b8cf5318",
+          "name": "aws-seeed-smart-lake-label",
+          "organization_id": "c176dcbe-9c87-4bf6-9afd-34123d6d2046"
+        }
+      ],
+      "multi_buy": 1,
+      "organization_id": "c176dcbe-9c87-4bf6-9afd-34123d6d2046",
+      "preferred_hotspots": [],
+      "rx_delay": 1,
+      "rx_delay_actual": 1,
+      "rx_delay_state": "rx_delay_established",
+      "rx_delay_timing_ans_device_ack": false
+    },
+    "name": "smart-lake-wio-lora-chassis",
+    "payload": "AABOLwBCEAAAAQ==",
+    "payload_size": 10,
+    "port": 2,
+    "raw_packet": "gAoAAEiAAAACgLtqf27oT+RZ5WG5csM=",
+    "replay": false,
+    "reported_at": 1663029594409,
+    "type": "uplink",
+    "uuid": "c3fcecc8-6b69-4f82-9ced-d919d9efeee5"
+  }

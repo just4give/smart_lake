@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "api": {
+      "smartlakeweb": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "awsNodejsConnectionReuseEnabled",
+      "environmentVariableName": "AWS_NODEJS_CONNECTION_REUSE_ENABLED"
+    }
+  ]
+}
